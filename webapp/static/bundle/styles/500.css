@@ -1,0 +1,16 @@
+.page-404,
+.page-500 {
+  text-align: center;
+}
+.page-404 h1.title,
+.page-500 h1.title {
+  font-weight: 700;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.page-404 h1.error,
+.page-500 h1.error {
+  color: #ff0003;
+}

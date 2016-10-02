@@ -1,0 +1,101 @@
+.modal-overlay {
+	position absolute;
+	width 100%;
+	height 100%;
+	background-color: rgba(255, 255, 255, 0);
+	top: 0;
+	display: none;
+	opacity: 0;
+	z-index 1000;
+	//margin-left: -15px;
+}
+
+.alert-modal,
+.confirm-modal,
+.popup-modal {
+	z-index 1001;
+	opacity 0;
+	overflow-y: auto;
+	position: absolute;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(195, 194, 194, 0.45);
+	background-color: #fff;
+	width: 400px;
+	top: 50%;
+	left: 50%;
+	max-height: 500px;
+	margin-left: -200px;
+
+	.inner {
+		padding: 4rem 0;
+		position: relative;
+		.title {
+			text-align: center;
+			margin-top 0 !important;
+		}
+		.content {
+			width 100%;
+			color: $color-black;
+			line-height 160%;
+
+		}
+		.icon {
+			margin-top : 2.8rem;
+			width : 30%;
+		}
+	}
+}
+
+.alert-modal {
+	.button {
+		width 80%;
+		margin-top 32px;
+		padding: 12px 8px;
+	}s
+	.sa-icon {
+		margin-top: 24px;
+	}
+}
+
+.confirm-modal {
+	.btn-box {
+		.button {
+		    width: 50%;
+		    border-radius: 0;
+		    float: left;
+	        padding: 1.4rem 0;
+	        &.button-cancel {
+			    border-top: 1px solid #f1f1f1;
+			} 
+		}
+	}
+}
+
+.popup-modal {
+	max-height: 600px;
+	.content {
+		margin-top : 1.6rem;
+		margin-bottom : 1.6rem;
+		.content-info {
+				padding: 0 5rem;
+		}
+		.btn-box {
+			width: 400px;
+			.button{
+			    width: 50%;
+			    border-radius: 0;
+			    float: left;
+		        padding: 1.4rem 0;
+		        &.button-cancel {
+				    border-top: 1px solid #f1f1f1;
+				}
+			}
+		}
+	}
+	.icon-close {
+		position: absolute;
+		right: 18px;
+		top: 18px;
+		cursor: pointer;
+	}
+}

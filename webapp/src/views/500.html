@@ -1,0 +1,20 @@
+{% extends "generic/base.html" %}
+
+{% block title %}500 Internal Error{% endblock %}
+
+{% block style %}
+<!-- inject:css -->
+<link rel="stylesheet" href="/static/bundle/styles/500.css"/>
+<!-- endinject -->
+{% endblock %}
+
+{% block content %}
+<div class='container page-500'>
+    <div class="sorry">
+        <h1 class="title error">{{ err }}</h1>
+        <a href="#" onclick="history.go(-1)">
+            <div class="button button-blue">Back</div>
+        </a>
+    </div>
+</div>
+{% endblock %}

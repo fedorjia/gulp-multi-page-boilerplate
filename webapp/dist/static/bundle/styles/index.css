@@ -1,0 +1,8 @@
+.page-index {
+  background-color: #fff;
+  min-height: 200px;
+  text-align: center;
+}
+.page-index h1 {
+  margin-bottom: 24px;
+}

@@ -1,0 +1,1 @@
+function checked(){return!0}function onSubmit(){checked()&&(window.location.href="/login")}$(function(){var n=$(".button");n.on("click",onSubmit)}());

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+	<meta name="apple-touch-fullscreen" content="yes"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<meta name="renderer" content="webkit"/>
+	<meta name="keywords" content="{% block keywords %}{% endblock %}"/>
+	<meta name="description" content="{% block description %}{% endblock %}"/>
+	<title>{% block title %}{% endblock %}</title>
+	<!--[if lt IE 9]>
+	<script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="//cdn.bootcss.com/es5-shim/4.5.9/es5-shim.min.js"></script>
+	<![endif]-->
+	<!-- inject:css -->
+	<link rel="stylesheet" href="/static/bundle/styles/core.css"/>
+	<!-- endinject -->
+	{% block style %}{% endblock %}
+</head>
+<body>
+{% include "components/header.html" %}
+
+{% block content %}{% endblock %}
+
+{% include "components/footer.html" %}
+
+<!-- inject:js -->
+<script src="/static/bundle/scripts/core.js"></script>
+<!-- endinject -->
+{% block script %}{% endblock %}
+{% include "components/tracker.html" %}
+</body>
+</html>

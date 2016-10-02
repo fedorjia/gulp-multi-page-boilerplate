@@ -1,0 +1,78 @@
+
+// Button
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.button,
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit']
+	background-color: $color-primary
+	border-radius: .4rem
+	color: $color-initial
+	cursor: pointer
+	display: inline-block
+	font-size: 1.6rem
+	letter-spacing: .1rem
+	text-align: center
+	text-decoration: none
+	white-space: nowrap
+	border none;
+	vertical-align middle;
+	padding: 8px 12px;
+	overflow visible; // removes padding in IE
+
+	&:hover,
+	&:focus
+		//background-color: $color-secondary
+		//border-color: $color-secondary
+		//color: $color-initial
+		outline: 0
+
+	&.button-disabled,
+	&[disabled]
+		cursor: default
+		opacity: .5
+
+		//&:hover,
+		//&:focus
+		//	background-color: $color-primary
+		//	border-color: $color-primary
+
+	&.button-outline
+		background-color: transparent
+		color: $color-primary
+		border-color: $color-secondary;
+		border:1px solid $color-secondary;
+
+		&:hover,
+		&:focus
+			background-color: transparent
+			border-color: $color-secondary
+			color: $color-secondary
+
+		&.button-disabled,
+		&[disabled]
+
+			&:hover,
+			&:focus
+				border-color: inherit
+				color: $color-primary
+
+	&.button-clear
+		background-color: transparent
+		border-color: transparent
+		color: $color-primary
+
+		&:hover,
+		&:focus
+			background-color: transparent
+			border-color: transparent
+			color: $color-secondary
+
+		&.button-disabled,
+		&[disabled]
+
+			&:hover,
+			&:focus
+				color: $color-primary

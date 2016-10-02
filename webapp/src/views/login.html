@@ -1,0 +1,27 @@
+{% extends "generic/base.html" %}
+
+{% block title %} Login {% endblock %}
+
+{% block style %}
+<!-- inject:css -->
+<link rel="stylesheet" href="/static/bundle/styles/login.css"/>
+<!-- endinject -->
+{% endblock %}
+
+{% block content %}
+<div class='container page-login'>
+    <div class="form">
+        <h1>Login</h1>
+        <input type='email' placeholder="Email"/>
+        <input type="password" placeholder="Password"/>
+        <div class="button button-blue">Login</div>
+        <div class="tip">No Account？<a href="/register" class="button button-clear">Register</a></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block script %}
+<!-- inject:js -->
+<script src="/static/bundle/scripts/login.js"></script>
+<!-- endinject -->
+{% endblock %}

@@ -1,0 +1,35 @@
+{
+  "name": "multi-page-boilerplate",
+  "version": "1.0.0",
+  "description": "multi page application boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no test specified ...\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fedorjia/multi-page-boilerplate.git"
+  },
+  "author": "Fedor",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "nunjucks": "^2.4.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.6",
+    "gulp-concat": "^2.6.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.0",
+    "gulp-inject": "^4.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-streamify": "^1.0.2",
+    "gulp-stylus": "^2.5.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "node-notifier": "^4.5.0",
+    "shelljs": "^0.7.4",
+    "watchify": "^3.7.0"
+  }
+}
