@@ -81,6 +81,7 @@ for(let target in conf.tasks) {
 			const tmp = target.replace(/\//g, '_');
 			rm('-rf', `${path.dist.static}/styles/${tmp}.min.*.css`);
 			rm('-rf', `${path.dist.static}/scripts/${tmp}.min.*.js`);
+			cp('-R', `${path.src.view}/${tmp}.html`, `${path.dist.view}`); // move views
 		});
 
 		/** target style **/

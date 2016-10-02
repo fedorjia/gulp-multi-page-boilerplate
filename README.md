@@ -15,7 +15,7 @@ view document source code, you will find it.
 ![image](webapp/static/images/QQ20161002-0.jpg)
 
 ## configure
-edit` gulpconf.js` file, and configure your tasks.
+edit` build/conf.js` file, and configure your tasks.
 ![image](webapp/static/images/QQ20161002-1.jpg)
 
 ## development
