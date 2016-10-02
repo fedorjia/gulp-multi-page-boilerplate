@@ -19,7 +19,10 @@ edit` build/conf.js` file, and configure your tasks.
 ![image](webapp/static/images/QQ20161002-1.jpg)
 
 ## development
-when you are developing your website, run the following command
+when you are developing your app
+
+1.  edit settings.js, change `debug = true`
+2.  run the following command
 
 ```
 gulp dev
@@ -30,7 +33,10 @@ it will do the following things
 * inject them into html
 
 ## production
-when you are preparing to publish your website, run the following command
+when you are preparing to publish your app
+
+1.  edit settings.js, change `debug = false`
+2.  run the following command
 
 ```
 gulp build
