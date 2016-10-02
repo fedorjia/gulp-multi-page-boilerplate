@@ -12,11 +12,11 @@ node index.js
 then visit [http://localhost:3000](http://localhost:3000)
 view document source code, you will find it.
 
-![image](public/images/i0.jpg)
+![image](public/images/QQ20161002-0.jpg)
 
 ## configure
 edit` gulpconf.js` file, and configure your tasks.
-![image](public/images/i3.jpg)
+![image](public/images/QQ20161002-1.jpg)
 
 ## development
 when you are developing your website, run the following command
