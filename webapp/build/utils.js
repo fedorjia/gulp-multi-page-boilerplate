@@ -1,11 +1,9 @@
 'use strict';
 const gulp = require('gulp'),
-	watchify = require('watchify'),
 	rename = require('gulp-rename'),
 	concat = require('gulp-concat'),
 	uglify = require('gulp-uglify'),
 	stylus = require('gulp-stylus'),
-	notifier = require('node-notifier'),
 	inject = require('gulp-inject'),
 	htmlmin = require('gulp-htmlmin'),
 	conf = require('./conf');
