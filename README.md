@@ -25,6 +25,8 @@ when you are developing your app
 2.  run the following command
 
 ```
+nodemon index.js
+
 gulp dev
 ```
 it will do the following things
