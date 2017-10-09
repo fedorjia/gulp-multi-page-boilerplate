@@ -1,5 +1,7 @@
 >Use  `gulp` to build multi-page webapp.
 
+**This project has been deprecated. Please use SSR(`React` or `Vue`) instead.**
+
 # Usage
 ##install
 ```
